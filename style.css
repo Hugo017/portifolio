@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #c1c1c1 ;
     background-color: #1b0355;
+    
 }
 
 h1, h2, h3 {
@@ -12,14 +13,16 @@ h1, h2, h3 {
 nav {
     display: flex;
     align-items: center;
-    background-color: #191970;
+    background-color: #0a3db5;
+    
 }
 
 nav > a {
     text-decoration: none;
-    color: #9df604;
+    color: #ffffff;
     font-weight: 800;
     font-size: 32px;
+    
 }
 
 nav ul {
@@ -43,13 +46,26 @@ nav ul li a {
     width: 100%;
     text-decoration: none;
     color: #FFFFFF;
+}
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("camera.jpg");
 }
 
 section  a {
     color:#0070ef;
 }
 
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a3db5;
+    color: #FFFFFF;
+}
 
 
 
