@@ -2,18 +2,38 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #c1c1c1 ;
     background-color: #1b0355;
-    
+    background-image: url("montanha\ pixelada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+section p  {
+    font-size: 22px;
+    font-family: 'Saira Stencil One', cursive;
 }
 
 h1, h2, h3 {
     font-family: 'Bungee Spice', sans-serif;
     color: #c1c1c1;
 }
+.botao {
+    color:#000000;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #fff200;
+    font-size: .9em;
+    border-radius: 10px;
+    font-family: 'Bungee Spice', sans-serif;
+}
 
 nav {
     display: flex;
     align-items: center;
-    background-color: #0a3db5;
+    background-color: #000716;
+    font-family: 'Saira Stencil One', cursive;
     
 }
 
@@ -53,18 +73,65 @@ header {
     flex-direction: column;
     align-items: center;
     background-image: url("camera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
 }
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#sobre h2 {
+    color:#FFFFFF
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+} 
+
+#sobre.botao {
+    background-color: #f1f1f1;
+    color: #c5a1a1;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato h2 {
+    color: #000000;
+}
+
 
 section  a {
-    color:#0070ef;
+    color:#fff200;
+    
 }
-
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #0a3db5;
+    background-color: #000614;
     color: #FFFFFF;
+    font-family: 'Nabla', cursive;
+    font-size: 20px;
+}
+#nav {
+    font-family: 'Nabla', cursive;
 }
 
 
