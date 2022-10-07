@@ -3,11 +3,12 @@ body {
     color: #c1c1c1 ;
     background-color: #1b0355;
     background-image: url("montanha\ pixelada.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     color: #FFFFFF;
     text-align: center;
     padding: 20px;
+    margin: 0%;
 }
 
 section p  {
@@ -35,6 +36,7 @@ nav {
     background-color: #000000;
     font-family: 'Saira Stencil One', cursive;
     
+    
 }
 
 nav > a {
@@ -42,6 +44,7 @@ nav > a {
     color: #ffffff;
     font-weight: 800;
     font-size: 32px;
+    padding: 30px;
     
 }
 
@@ -78,7 +81,9 @@ header {
     background-position: center;
     color: #FFFFFF;
     text-align: center;
-    padding: 20px;
+    padding: 250px;
+    margin: 10px;
+    
 }
 
 #sobre {
@@ -137,7 +142,7 @@ input {
 }
 
 input[type="submit"] {
-    background: #380043;
+    background: #ff0000;
     color: #FFFFFF;
 }
 
@@ -156,7 +161,7 @@ input[type="submit"] {
 
 
 section  a {
-    color:#fff200;
+    color:#ffffff;
     
 }
 
@@ -170,5 +175,8 @@ footer {
 }
 #nav {
     font-family: 'Nabla', cursive;
+}
+#git {
+    color: #FFFFFF;
 }
 
